@@ -1,5 +1,0 @@
-nohup: ignoring input
-usage: PruneFL_Prod_LDA.py [-h] (-a | -na) [-c] [-t TARGET_DENSITY]
-                           [-m MAX_DENSITY] [-s SEED] [-e EXPERIMENT_NAME]
-                           [-p PRUNE_RATE]
-PruneFL_Prod_LDA.py: error: unrecognized arguments: 0.8.log
