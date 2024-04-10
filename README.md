@@ -1,33 +1,41 @@
 # Description
-This is the official code repository for the following paper accepted at TNNLS 2022:
+This this the offical code for "Federated Learning based on Pruning and Recovery"
+It can be seen in https://arxiv.org/abs/2403.15439,
+
+
+This framework integrates asynchronous learning algorithms and pruning techniques, effectively addressing the inefficiencies of traditional federated learning algorithms in scenarios involving heterogeneous devices, as well as tackling the staleness issue and inadequate training of certain clients in asynchronous algorithms. Through the incremental restoration of model size during training, the framework expedites model training while preserving model accuracy. Furthermore, enhancements to the federated learning aggregation process are introduced, incorporating a buffering mechanism to enable asynchronous federated learning to operate akin to synchronous learning. Additionally, optimizations in the process of the server transmitting the global model to clients reduce communication overhead. Our experiments across various datasets demonstrate that: (i) significant reductions in training time and improvements in convergence accuracy are achieved compared to conventional asynchronous FL and HeteroFL; (ii) the advantages of our approach are more pronounced in scenarios with heterogeneous clients and non-IID client data.
+
+The model pruning frame was based on Prune_Fl.
 
 # Setup
-#python setup.py install #安装 生成库文件 且能生成环境变量 以便直接调库
+## Initial the Pruning Library file from Prune_FL
 
-```python3
 sudo -E python3 setup.py install
-```
-
-# Run prototype 
-For each new terminal, please run
-```shell
+## Setup the environment path
 source setenv.sh     #setup the path
-```
-```
-#!/bin/bash
 
-full_path=$(realpath "${BASH_SOURCE[0]}")
-dir_path=$(dirname "$full_path")
-export PYTHONPATH=$dir_path
+# Download the dataset
+such as Cifar10, Femnist, Tiny-ImageNet, Mnist
 
-```
+the details can be seen in bases/vision/datasets. 
+
+Some datasets can downloads directly, other datasets need to be manually downloaded and placed in the specified folder.
 
 
-in the `PR-FL` root folder for the correct environment.
-
-
+# Run the experiments
+you can see the autorun/experiment.sh
+It have some experiments example from my prior work
 
 ```
-to generate figures in `results/{experiment_name}/figs` folder for each experiment. Non-existing results will be skipped.
+conda activate /data/mcj/conda_env/d2l  #activate the conda environment
+cd /data/mcj/Prune_fl # cd the work space
+source setenv.sh     #setup the environment path
 
-The code has been tested on Ubuntu 20.04, and example results are given in the `example_results` folder.
+# Description of parameters to be added
+nohup python experiments/FEMNIST/Prune_increase_FL_CMD.py -ic 0.2 -i 50 -f n -d 0 -g 1 -m fed_avg -wd 0 -md 0.08 -ac g -clr 0 -wdn 10 -ft n -ch asyn -stal poly -re -niid -Res > "log_$(date +'%Y%m%d%H%M%S%3N').log" 2>&1 &
+```
+
+
+# Analysis
+
+Maybe can see in the dataset.jupyter
