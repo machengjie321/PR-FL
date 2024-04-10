@@ -1,0 +1,2 @@
+SERVER_ADDR = "127.0.1.1"  # Local
+SERVER_PORT = 9999

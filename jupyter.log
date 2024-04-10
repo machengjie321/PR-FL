@@ -1,0 +1,705 @@
+nohup: ignoring input
+[W 11:18:19.603 NotebookApp] Error loading server extension jupyter_lsp
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/notebook/notebookapp.py", line 2050, in init_server_extensions
+        func(self)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_lsp/serverextension.py", line 76, in load_jupyter_server_extension
+        nbapp.io_loop.call_later(0, initialize, nbapp, virtual_documents_uri)
+    AttributeError: 'NotebookApp' object has no attribute 'io_loop'
+Fail to get yarn configuration. /data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:4
+(()=>{var Qge=Object.create;var AS=Object.defineProperty;var bge=Object.getOwnPropertyDescriptor;var Sge=Object.getOwnPropertyNames;var vge=Object.getPrototypeOf,xge=Object.prototype.hasOwnProperty;var J=(r=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(r,{get:(e,t)=>(typeof require<"u"?require:e)[t]}):r)(function(r){if(typeof require<"u")return require.apply(this,arguments);throw new Error('Dynamic require of "'+r+'" is not supported')});var Pge=(r,e)=>()=>(r&&(e=r(r=0)),e);var w=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),ut=(r,e)=>{for(var t in e)AS(r,t,{get:e[t],enumerable:!0})},Dge=(r,e,t,i)=>{if(e&&typeof e=="object"||typeof e=="function")for(let n of Sge(e))!xge.call(r,n)&&n!==t&&AS(r,n,{get:()=>e[n],enumerable:!(i=bge(e,n))||i.enumerable});return r};var Pe=(r,e,t)=>(t=r!=null?Qge(vge(r)):{},Dge(e||!r||!r.__esModule?AS(t,"default",{value:r,enumerable:!0}):t,r));var QK=w((GXe,BK)=>{BK.exports=wK;wK.syn
+
+SyntaxError: Unexpected token {
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:549:28)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+    at tryModuleLoad (module.js:453:12)
+    at Function.Module._load (module.js:445:3)
+    at Module.runMain (module.js:611:10)
+    at run (bootstrap_node.js:387:7)
+    at startup (bootstrap_node.js:153:9)
+
+[W 2024-02-06 11:18:19.892 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-02-06 11:18:19.892 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-02-06 11:18:19.893 LabApp] 'allow_root' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-02-06 11:18:19.893 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-02-06 11:18:19.893 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-02-06 11:18:19.898 LabApp] JupyterLab extension loaded from /data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyterlab
+[I 2024-02-06 11:18:19.898 LabApp] JupyterLab application directory is /data/mcj/conda_env/d2l/share/jupyter/lab
+[I 2024-02-06 11:18:19.899 LabApp] Extension Manager is 'pypi'.
+[I 11:18:19.905 NotebookApp] Serving notebooks from local directory: /data/mcj/Prune_fl
+[I 11:18:19.905 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 11:18:19.905 NotebookApp] http://omnisky:8897/
+[I 11:18:19.905 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 11:18:19.908 NotebookApp] No web browser found: could not locate runnable browser.
+[I 11:19:55.970 NotebookApp] 302 GET / (10.38.69.88) 1.300000ms
+[I 11:19:55.998 NotebookApp] 302 GET /tree? (10.38.69.88) 1.710000ms
+[W 11:20:01.734 NotebookApp] Not allowing login redirect to '/tree?'
+[I 11:20:01.734 NotebookApp] 302 POST /login?next=%2Ftree%3F (10.38.69.88) 48.130000ms
+[I 11:20:01.804 NotebookApp] 302 GET / (10.38.69.88) 0.840000ms
+[W 21:19:26.330 NotebookApp] 404 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/TeX/fontdata.js?V=2.7.9 (10.38.69.88) 35.170000ms referer=http://10.29.183.244:8897/notebooks/Tiny-imagenet.ipynb
+[W 21:19:26.454 NotebookApp] Notebook Tiny-imagenet.ipynb is not trusted
+[I 21:19:26.885 NotebookApp] Kernel started: b8435744-e270-4fe2-b4cd-d8da2788a262, name: python3
+[W 21:21:05.981 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_second]_[1, 0.5, 0.1]un_fair_1_10_un_increase_-1_sub_fed_avg_g_0_0_n_False
+[W 21:21:06.003 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_second]_[1, 0.5, 0.1]un_fair_1.0_1_no_increase_-1.0_sub_fed_avg_g_0.0_0.0_n_False
+[W 21:21:06.004 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_second]_[1, 1, 1]un_fair_1_100_un_increase_-1_sub_fed_avg_g_0_0_n_False
+[W 21:21:06.005 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]n_-1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_n_False
+[W 21:21:06.006 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]n_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_n_False
+[W 21:21:06.024 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]u_-1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_n_False
+[W 21:21:06.029 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]u_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_n_False
+[W 21:21:06.032 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_-1.0_0_n_False
+[W 21:21:06.034 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_n_False_uc
+[W 21:21:06.036 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_y_False
+[W 21:21:06.049 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_1.0_0_n_False
+[W 21:21:06.056 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_1e-05_sub_fed_avg_g_0.0_0_n_False
+[W 21:21:06.058 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_1_no_increase_-1.0_sub_fed_avg_g_0.0_0.0_n_False
+[W 21:21:06.063 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_bts_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 21:21:06.065 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 21:21:06.070 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_no_increase_-1.0_sub_fed_avg_g_0.0_0.0_n_False
+[W 21:21:06.073 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 21:21:06.083 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.3]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 21:21:06.085 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.5]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 21:21:06.089 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.7]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 21:21:06.091 NotebookApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.9]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[I 21:21:27.720 NotebookApp] Saving file at /Tiny-imagenet.ipynb
+[W 21:21:27.720 NotebookApp] Notebook Tiny-imagenet.ipynb is not trusted
+[W 21:22:14.634 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_bigtosmall]_[1, 0.5, 0.1]un_fair_1.0_1_no_increase_-1.0_sub_fed_avg_g_0.0_0.1
+[W 21:22:14.677 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]n_-1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_n_True
+[W 21:22:14.681 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]n_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_n_True
+[W 21:22:14.683 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]u_-1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_n_True
+[W 21:22:14.684 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]u_0.8_30_no_-1.0_sub_fed_avg_g_0.0_0_n_True
+[W 21:22:14.686 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]u_0.9_30_no_-1.0_sub_fed_avg_g_0.0_0_n_True
+[W 21:22:14.698 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]u_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_n_True
+[W 21:22:14.727 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]u_1.15_30_no_-1.0_sub_fed_avg_g_0.0_0_n_True
+[W 21:22:14.728 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]u_1.3_30_no_-1.0_sub_fed_avg_g_0.0_0_n_True
+[W 21:22:14.730 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_-1.0_0.0_n_True
+[W 21:22:14.731 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]u_1.5_30_no_-1.0_sub_fed_avg_g_0.0_0_n_True
+[W 21:22:14.733 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_-1.0_0_n_True
+[W 21:22:14.749 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_n_True
+[W 21:22:14.777 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0_y_True
+[W 21:22:14.781 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0_n_True_uc
+[W 21:22:14.783 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_1.0_0.0_n_True
+[W 21:22:14.785 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_FEMNIST]_[1, 0.5, 0.1]un_fair_1.0_30_no_1e-05_sub_fed_avg_g_0.0_0.0_n_True
+[W 21:22:14.787 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_second]_[1, 1, 1]un_fair_1_100_un_increase_-1_sub_fed_avg_g_0_0_n_False
+[W 21:22:14.808 NotebookApp] delete /results/FEMNIST/Hetero_FL——[Hetero_fair_cuda20000_smalltobig]_[1, 0.5, 0.1]un_fair_1.0_1_no_increase_-1.0_sub_fed_avg_g_0.0_0.1
+[W 21:23:21.549 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda15000_CIFAR10]_[1, 0.5, 0.1]n_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0_n_False
+[W 21:23:21.568 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda15000_CIFAR10]_[1, 0.5, 0.1]u_-1.0_30_no_-1.0_sub_fed_avg_g_0.0_0_n_False
+[W 21:23:21.578 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda15000_CIFAR10]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_-1.0_0_n_False
+[W 21:23:21.579 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda15000_CIFAR10]_[1, 0.5, 0.1]u_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0_n_False
+[W 21:23:21.585 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.1]n_-1.0_30_no_-1.0_sub_fed_avg_g_0.0_0_n_False
+[W 21:23:21.587 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda15000_CIFAR10]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0_y_False
+[W 21:23:21.606 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.1]n_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0_n_False
+[W 21:23:21.607 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.1]u_-1.0_30_no_-1.0_sub_fed_avg_g_0.0_0_n_False
+[W 21:23:21.608 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.1]u_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0_n_False
+[W 21:23:21.611 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_-1.0_0_n_False
+[W 21:23:21.618 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.1]un_fair_1.0_30_bts_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 21:23:21.634 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0_n_False_uc
+[W 21:23:21.636 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0_y_False
+[W 21:23:21.637 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_1.0_0_n_False
+[W 21:23:21.638 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.1]un_fair_1.0_30_no_1e-05_sub_fed_avg_g_0.0_0_n_False
+[W 21:23:21.646 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.1]un_fair_1.0_30_no_increase_-1.0_sub_fed_avg_g_0.0_0.0_n_False
+[W 21:23:21.658 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.1]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 21:23:21.660 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.2]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 21:23:21.662 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.3]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 21:23:21.673 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.4]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 21:23:21.677 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_CIFAR10]_[1, 0.5, 0.5]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 21:23:21.701 NotebookApp] delete /results/CIFAR10/Hetero_FL——[Hetero_fair_cuda20000_second]_[1, 0.5, 0.1]un_fair_1_10_un_increase_-1_sub_fed_avg_g_0_0_n_False
+[I 21:36:50.490 NotebookApp] 302 GET /notebooks/Tiny-imagenet.ipynb (10.38.102.227) 1.270000ms
+[I 21:36:57.658 NotebookApp] 302 POST /login?next=%2Fnotebooks%2FTiny-imagenet.ipynb (10.38.102.227) 120.270000ms
+[W 21:36:58.844 NotebookApp] 404 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX/fontdata.js?V=2.7.9 (10.38.102.227) 4.230000ms referer=http://10.29.183.244:8897/notebooks/Tiny-imagenet.ipynb
+[W 21:36:58.898 NotebookApp] Notebook Tiny-imagenet.ipynb is not trusted
+[I 21:38:59.359 NotebookApp] Saving file at /Tiny-imagenet.ipynb
+[W 21:38:59.359 NotebookApp] Notebook Tiny-imagenet.ipynb is not trusted
+[I 21:54:47.490 NotebookApp] 302 GET /notebooks (10.38.102.227) 1.520000ms
+[W 21:54:56.050 NotebookApp] Notebook Feminst.ipynb is not trusted
+[I 21:54:56.898 NotebookApp] Kernel started: e1d2d078-ba63-4845-a42c-2c14964d445b, name: python3
+[I 21:56:57.952 NotebookApp] Saving file at /Feminst.ipynb
+[W 21:56:57.953 NotebookApp] Notebook Feminst.ipynb is not trusted
+[I 22:00:57.777 NotebookApp] Saving file at /Feminst.ipynb
+[W 22:00:57.778 NotebookApp] Notebook Feminst.ipynb is not trusted
+[I 22:03:00.453 NotebookApp] Saving file at /Feminst.ipynb
+[W 22:03:00.454 NotebookApp] Notebook Feminst.ipynb is not trusted
+[W 22:19:09.814 NotebookApp] Notebook Tiny-imagenet.ipynb is not trusted
+[W 22:19:31.904 NotebookApp] delete /log_20231207144205811.log
+[I 22:23:15.405 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 22:23:16.900 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 22:26:16.901 NotebookApp] WebSocket ping timeout after 110492 ms.
+[I 22:26:21.905 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 22:26:24.721 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 22:32:24.723 NotebookApp] WebSocket ping timeout after 101149 ms.
+[I 22:32:29.726 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 22:35:39.177 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 22:38:09.177 NotebookApp] WebSocket ping timeout after 116262 ms.
+[I 22:38:14.181 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 22:43:16.247 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 22:46:16.249 NotebookApp] WebSocket ping timeout after 114879 ms.
+[I 22:46:21.250 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 22:51:31.376 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 22:53:01.377 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 22:53:06.379 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 23:06:35.805 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 23:09:05.809 NotebookApp] WebSocket ping timeout after 116488 ms.
+[I 23:09:10.812 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 23:41:22.947 NotebookApp] Starting buffering for b8435744-e270-4fe2-b4cd-d8da2788a262:1e3a520a6ec94ada998fe2f112152876
+[I 05:01:39.562 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 05:04:09.563 NotebookApp] WebSocket ping timeout after 104927 ms.
+[I 05:04:14.565 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 05:38:47.535 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 05:40:17.537 NotebookApp] WebSocket ping timeout after 90002 ms.
+[I 05:40:22.540 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 06:30:56.237 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 06:32:26.241 NotebookApp] WebSocket ping timeout after 90003 ms.
+[I 06:32:31.244 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 07:59:49.909 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 08:00:45.532 NotebookApp] Saving file at /Feminst.ipynb
+[W 08:00:45.533 NotebookApp] Notebook Feminst.ipynb is not trusted
+[I 08:00:45.790 NotebookApp] Saving file at /Feminst.ipynb
+[W 08:00:45.791 NotebookApp] Notebook Feminst.ipynb is not trusted
+[W 08:00:55.406 NotebookApp] Notebook Mnist.ipynb is not trusted
+[I 08:00:55.948 NotebookApp] Kernel started: e730622b-1ca3-48ab-9723-82fcb9179e77, name: python3
+[W 08:01:19.913 NotebookApp] WebSocket ping timeout after 90003 ms.
+[I 08:01:24.915 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 08:02:56.329 NotebookApp] Saving file at /Mnist.ipynb
+[W 08:02:56.329 NotebookApp] Notebook Mnist.ipynb is not trusted
+[I 08:03:49.964 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 08:04:56.401 NotebookApp] Saving file at /Mnist.ipynb
+[W 08:04:56.401 NotebookApp] Notebook Mnist.ipynb is not trusted
+[I 08:09:00.432 NotebookApp] Saving file at /Feminst.ipynb
+[W 08:09:00.432 NotebookApp] Notebook Feminst.ipynb is not trusted
+[I 14:26:26.999 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 14:26:26.999 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 14:26:28.220 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 14:26:28.363 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[W 14:27:58.222 NotebookApp] WebSocket ping timeout after 90002 ms.
+[W 14:27:58.363 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 14:28:03.224 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 14:28:03.365 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 15:14:38.709 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 15:14:39.672 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[W 15:16:08.710 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 15:16:09.674 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 15:16:13.713 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 15:16:14.676 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 22:09:25.838 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 22:09:26.815 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 22:43:14.968 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 22:43:14.969 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 22:43:15.862 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 22:43:15.993 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 22:44:45.863 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 22:44:45.994 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 22:44:50.865 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 22:44:50.996 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 23:00:56.034 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:00:56.207 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 23:02:26.036 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 23:02:26.209 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 23:02:31.038 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:02:31.210 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 23:02:32.455 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:02:32.591 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 23:04:02.456 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 23:04:02.592 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 23:04:07.459 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:04:07.594 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 23:15:15.641 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 23:15:15.803 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[W 23:18:45.643 NotebookApp] WebSocket ping timeout after 119922 ms.
+[W 23:18:45.805 NotebookApp] WebSocket ping timeout after 119976 ms.
+[I 23:18:50.645 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 23:18:50.807 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:25:51.118 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:25:51.652 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 23:26:11.007 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:26:11.010 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 23:26:12.917 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:26:13.413 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 23:27:42.919 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 23:27:43.414 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 23:27:47.921 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:27:48.417 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 23:37:41.122 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:37:41.252 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 23:39:11.123 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 23:39:11.253 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 23:39:16.126 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:39:16.254 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 23:46:59.149 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:47:53.679 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 23:49:23.680 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 23:49:28.683 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 23:49:59.151 NotebookApp] WebSocket ping timeout after 119849 ms.
+[I 23:50:04.155 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 23:55:09.066 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 23:55:45.755 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[W 23:57:39.066 NotebookApp] WebSocket ping timeout after 112783 ms.
+[I 23:57:44.068 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 00:00:45.757 NotebookApp] WebSocket ping timeout after 103861 ms.
+[I 00:00:50.761 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 00:04:44.866 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 00:06:14.866 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 00:06:19.869 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 00:39:11.175 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 00:39:11.947 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 00:40:41.177 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 00:40:41.948 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 00:40:46.179 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 00:40:46.950 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 01:03:22.810 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 01:03:23.738 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 01:06:52.813 NotebookApp] WebSocket ping timeout after 111088 ms.
+[I 01:06:57.816 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[W 01:07:53.739 NotebookApp] WebSocket ping timeout after 106483 ms.
+[I 01:07:58.743 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 01:48:54.606 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 01:48:56.594 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[W 01:50:24.607 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 01:50:26.595 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 01:50:29.609 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 01:50:31.598 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 06:17:34.125 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 06:17:37.027 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 06:21:04.127 NotebookApp] WebSocket ping timeout after 115071 ms.
+[I 06:21:09.129 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[W 06:21:37.029 NotebookApp] WebSocket ping timeout after 110731 ms.
+[I 06:21:42.031 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 07:25:32.794 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 07:26:12.235 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 07:29:02.796 NotebookApp] WebSocket ping timeout after 102990 ms.
+[I 07:29:07.799 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[W 07:29:12.237 NotebookApp] WebSocket ping timeout after 115941 ms.
+[I 07:29:17.239 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 09:00:53.779 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 09:00:57.739 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[W 09:03:23.781 NotebookApp] WebSocket ping timeout after 119441 ms.
+[W 09:03:27.741 NotebookApp] WebSocket ping timeout after 119758 ms.
+[I 09:03:28.784 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 09:03:32.744 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 09:44:16.354 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 09:44:20.388 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[W 09:46:46.357 NotebookApp] WebSocket ping timeout after 119167 ms.
+[W 09:46:50.390 NotebookApp] WebSocket ping timeout after 119970 ms.
+[I 09:46:51.359 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 09:46:55.392 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 11:44:01.992 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 11:44:04.255 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[W 11:47:34.256 NotebookApp] WebSocket ping timeout after 112186 ms.
+[I 11:47:39.258 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[W 11:48:31.993 NotebookApp] WebSocket ping timeout after 103806 ms.
+[I 11:48:36.996 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 13:31:02.872 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 13:32:09.750 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 13:33:39.752 NotebookApp] WebSocket ping timeout after 90002 ms.
+[I 13:33:44.755 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 13:34:02.872 NotebookApp] WebSocket ping timeout after 116283 ms.
+[I 13:34:07.876 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 14:35:08.486 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 14:35:12.105 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 14:36:38.488 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 14:36:42.106 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 14:36:43.491 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 14:36:47.108 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 16:33:35.131 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 16:33:39.125 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 16:35:05.133 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 16:35:09.127 NotebookApp] WebSocket ping timeout after 90002 ms.
+[I 16:35:10.136 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 16:35:14.130 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[I 18:37:11.989 NotebookApp] Restoring connection for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 18:37:15.010 NotebookApp] Restoring connection for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+[W 18:40:41.990 NotebookApp] WebSocket ping timeout after 110767 ms.
+[W 18:40:45.011 NotebookApp] WebSocket ping timeout after 115991 ms.
+[I 18:40:46.992 NotebookApp] Starting buffering for e730622b-1ca3-48ab-9723-82fcb9179e77:fc386e59e55e40538fdcdf086888aa99
+[I 18:40:50.013 NotebookApp] Starting buffering for e1d2d078-ba63-4845-a42c-2c14964d445b:aaed173f84cc4668809be3aa7586dd40
+un_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_y_False?1707230770888 (10.38.69.88): Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_y_False not empty
+[W 2024-02-06 22:46:09.492 ServerApp] wrote error: 'Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_y_False not empty'
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 282, in delete
+        await ensure_async(cm.delete(path))
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 882, in delete
+        await self.delete_file(path)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1019, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_y_False not empty)
+[W 2024-02-06 22:46:09.493 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_y_False?1707230770888 (9da5381b91844bcdb47a2e3ea47e0e46@10.38.69.88) 3.25ms referer=http://10.29.183.244:8896/lab/tree/results/FEMNIST/PIF_FEMNIST_%5B1.0%2C%200.3%2C%200.1%5D0.1__asyn__con_sub_fed_avg__n__50_____ft_esc/app.log
+[W 2024-02-06 22:46:09.495 ServerApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_n_False_uc
+[W 2024-02-06 22:46:09.495 ServerApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_1.0_0_n_False
+[W 2024-02-06 22:46:09.497 ServerApp] Skipping trash for /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_n_False_uc, on different device to home directory
+[W 2024-02-06 22:46:09.497 ServerApp] Skipping trash for /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_1.0_0_n_False, on different device to home directory
+[W 2024-02-06 22:46:09.498 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_100_no_-1.0_sub_fed_avg_g_1.0_0_n_False?1707230770894 (10.38.69.88): Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_1.0_0_n_False not empty
+[W 2024-02-06 22:46:09.498 ServerApp] wrote error: 'Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_1.0_0_n_False not empty'
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 282, in delete
+        await ensure_async(cm.delete(path))
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 882, in delete
+        await self.delete_file(path)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1019, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_1.0_0_n_False not empty)
+[W 2024-02-06 22:46:09.499 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_100_no_-1.0_sub_fed_avg_g_1.0_0_n_False?1707230770894 (9da5381b91844bcdb47a2e3ea47e0e46@10.38.69.88) 4.98ms referer=http://10.29.183.244:8896/lab/tree/results/FEMNIST/PIF_FEMNIST_%5B1.0%2C%200.3%2C%200.1%5D0.1__asyn__con_sub_fed_avg__n__50_____ft_esc/app.log
+[W 2024-02-06 22:46:09.499 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_n_False_uc?1707230770890 (10.38.69.88): Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_n_False_uc not empty
+[W 2024-02-06 22:46:09.499 ServerApp] wrote error: 'Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_n_False_uc not empty'
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 282, in delete
+        await ensure_async(cm.delete(path))
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 882, in delete
+        await self.delete_file(path)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1019, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_n_False_uc not empty)
+[W 2024-02-06 22:46:09.500 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_100_no_-1.0_sub_fed_avg_g_0.0_0_n_False_uc?1707230770890 (9da5381b91844bcdb47a2e3ea47e0e46@10.38.69.88) 6.20ms referer=http://10.29.183.244:8896/lab/tree/results/FEMNIST/PIF_FEMNIST_%5B1.0%2C%200.3%2C%200.1%5D0.1__asyn__con_sub_fed_avg__n__50_____ft_esc/app.log
+[W 2024-02-06 22:46:09.504 ServerApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_bts_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 2024-02-06 22:46:09.505 ServerApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_1e-05_sub_fed_avg_g_0.0_0_n_False
+[W 2024-02-06 22:46:09.507 ServerApp] Skipping trash for /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_bts_-1.0_sub_fed_avg_g_0.0_0.0_y_False, on different device to home directory
+[W 2024-02-06 22:46:09.507 ServerApp] Skipping trash for /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_1e-05_sub_fed_avg_g_0.0_0_n_False, on different device to home directory
+[W 2024-02-06 22:46:09.508 ServerApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 2024-02-06 22:46:09.508 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_100_no_1e-05_sub_fed_avg_g_0.0_0_n_False?1707230770907 (10.38.69.88): Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_1e-05_sub_fed_avg_g_0.0_0_n_False not empty
+[W 2024-02-06 22:46:09.508 ServerApp] wrote error: 'Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_1e-05_sub_fed_avg_g_0.0_0_n_False not empty'
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 282, in delete
+        await ensure_async(cm.delete(path))
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 882, in delete
+        await self.delete_file(path)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1019, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_100_no_1e-05_sub_fed_avg_g_0.0_0_n_False not empty)
+[W 2024-02-06 22:46:09.509 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_100_no_1e-05_sub_fed_avg_g_0.0_0_n_False?1707230770907 (9da5381b91844bcdb47a2e3ea47e0e46@10.38.69.88) 3.94ms referer=http://10.29.183.244:8896/lab/tree/results/FEMNIST/PIF_FEMNIST_%5B1.0%2C%200.3%2C%200.1%5D0.1__asyn__con_sub_fed_avg__n__50_____ft_esc/app.log
+[W 2024-02-06 22:46:09.509 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_30_bts_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770911 (10.38.69.88): Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_bts_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty
+[W 2024-02-06 22:46:09.509 ServerApp] wrote error: 'Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_bts_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty'
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 282, in delete
+        await ensure_async(cm.delete(path))
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 882, in delete
+        await self.delete_file(path)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1019, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_bts_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty)
+[W 2024-02-06 22:46:09.509 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_30_bts_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770911 (9da5381b91844bcdb47a2e3ea47e0e46@10.38.69.88) 5.73ms referer=http://10.29.183.244:8896/lab/tree/results/FEMNIST/PIF_FEMNIST_%5B1.0%2C%200.3%2C%200.1%5D0.1__asyn__con_sub_fed_avg__n__50_____ft_esc/app.log
+[W 2024-02-06 22:46:09.510 ServerApp] Skipping trash for /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_y_False, on different device to home directory
+[W 2024-02-06 22:46:09.510 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770912 (10.38.69.88): Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty
+[W 2024-02-06 22:46:09.510 ServerApp] wrote error: 'Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty'
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 282, in delete
+        await ensure_async(cm.delete(path))
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 882, in delete
+        await self.delete_file(path)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1019, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty)
+[W 2024-02-06 22:46:09.511 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_30_no_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770912 (9da5381b91844bcdb47a2e3ea47e0e46@10.38.69.88) 3.63ms referer=http://10.29.183.244:8896/lab/tree/results/FEMNIST/PIF_FEMNIST_%5B1.0%2C%200.3%2C%200.1%5D0.1__asyn__con_sub_fed_avg__n__50_____ft_esc/app.log
+[W 2024-02-06 22:46:09.515 ServerApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_no_increase_-1.0_sub_fed_avg_g_0.0_0.0_n_False
+[W 2024-02-06 22:46:09.516 ServerApp] Skipping trash for /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_no_increase_-1.0_sub_fed_avg_g_0.0_0.0_n_False, on different device to home directory
+[W 2024-02-06 22:46:09.516 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_30_no_increase_-1.0_sub_fed_avg_g_0.0_0.0_n_False?1707230770913 (10.38.69.88): Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_no_increase_-1.0_sub_fed_avg_g_0.0_0.0_n_False not empty
+[W 2024-02-06 22:46:09.516 ServerApp] wrote error: 'Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_no_increase_-1.0_sub_fed_avg_g_0.0_0.0_n_False not empty'
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 282, in delete
+        await ensure_async(cm.delete(path))
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 882, in delete
+        await self.delete_file(path)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1019, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_no_increase_-1.0_sub_fed_avg_g_0.0_0.0_n_False not empty)
+[W 2024-02-06 22:46:09.516 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_30_no_increase_-1.0_sub_fed_avg_g_0.0_0.0_n_False?1707230770913 (9da5381b91844bcdb47a2e3ea47e0e46@10.38.69.88) 2.00ms referer=http://10.29.183.244:8896/lab/tree/results/FEMNIST/PIF_FEMNIST_%5B1.0%2C%200.3%2C%200.1%5D0.1__asyn__con_sub_fed_avg__n__50_____ft_esc/app.log
+[W 2024-02-06 22:46:09.526 ServerApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 2024-02-06 22:46:09.527 ServerApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.3]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 2024-02-06 22:46:09.528 ServerApp] Skipping trash for /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.3]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False, on different device to home directory
+[W 2024-02-06 22:46:09.529 ServerApp] Skipping trash for /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False, on different device to home directory
+[W 2024-02-06 22:46:09.529 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.3%5Dun_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770920 (10.38.69.88): Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.3]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty
+[W 2024-02-06 22:46:09.529 ServerApp] wrote error: 'Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.3]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty'
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 282, in delete
+        await ensure_async(cm.delete(path))
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 882, in delete
+        await self.delete_file(path)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1019, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.3]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty)
+[W 2024-02-06 22:46:09.530 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.3%5Dun_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770920 (9da5381b91844bcdb47a2e3ea47e0e46@10.38.69.88) 3.07ms referer=http://10.29.183.244:8896/lab/tree/results/FEMNIST/PIF_FEMNIST_%5B1.0%2C%200.3%2C%200.1%5D0.1__asyn__con_sub_fed_avg__n__50_____ft_esc/app.log
+[W 2024-02-06 22:46:09.530 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770916 (10.38.69.88): Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty
+[W 2024-02-06 22:46:09.530 ServerApp] wrote error: 'Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty'
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 282, in delete
+        await ensure_async(cm.delete(path))
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 882, in delete
+        await self.delete_file(path)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1019, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.1]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty)
+[W 2024-02-06 22:46:09.530 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.1%5Dun_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770916 (9da5381b91844bcdb47a2e3ea47e0e46@10.38.69.88) 5.34ms referer=http://10.29.183.244:8896/lab/tree/results/FEMNIST/PIF_FEMNIST_%5B1.0%2C%200.3%2C%200.1%5D0.1__asyn__con_sub_fed_avg__n__50_____ft_esc/app.log
+[W 2024-02-06 22:46:09.534 ServerApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.5]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 2024-02-06 22:46:09.535 ServerApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.7]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 2024-02-06 22:46:09.536 ServerApp] Skipping trash for /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.5]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False, on different device to home directory
+[W 2024-02-06 22:46:09.536 ServerApp] Skipping trash for /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.7]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False, on different device to home directory
+[W 2024-02-06 22:46:09.537 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.7%5Dun_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770935 (10.38.69.88): Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.7]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty
+[W 2024-02-06 22:46:09.537 ServerApp] wrote error: 'Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.7]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty'
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 282, in delete
+        await ensure_async(cm.delete(path))
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 882, in delete
+        await self.delete_file(path)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1019, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.7]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty)
+[W 2024-02-06 22:46:09.537 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.7%5Dun_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770935 (9da5381b91844bcdb47a2e3ea47e0e46@10.38.69.88) 2.78ms referer=http://10.29.183.244:8896/lab/tree/results/FEMNIST/PIF_FEMNIST_%5B1.0%2C%200.3%2C%200.1%5D0.1__asyn__con_sub_fed_avg__n__50_____ft_esc/app.log
+[W 2024-02-06 22:46:09.538 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.5%5Dun_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770928 (10.38.69.88): Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.5]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty
+[W 2024-02-06 22:46:09.538 ServerApp] wrote error: 'Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.5]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty'
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 282, in delete
+        await ensure_async(cm.delete(path))
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 882, in delete
+        await self.delete_file(path)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1019, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.5]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty)
+[W 2024-02-06 22:46:09.538 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.5%5Dun_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770928 (9da5381b91844bcdb47a2e3ea47e0e46@10.38.69.88) 4.25ms referer=http://10.29.183.244:8896/lab/tree/results/FEMNIST/PIF_FEMNIST_%5B1.0%2C%200.3%2C%200.1%5D0.1__asyn__con_sub_fed_avg__n__50_____ft_esc/app.log
+[W 2024-02-06 22:46:09.539 ServerApp] delete /results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.9]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False
+[W 2024-02-06 22:46:09.540 ServerApp] Skipping trash for /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.9]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False, on different device to home directory
+[W 2024-02-06 22:46:09.540 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.9%5Dun_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770936 (10.38.69.88): Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.9]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty
+[W 2024-02-06 22:46:09.540 ServerApp] wrote error: 'Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.9]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty'
+    Traceback (most recent call last):
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/tornado/web.py", line 1713, in _execute
+        result = await result
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 282, in delete
+        await ensure_async(cm.delete(path))
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 882, in delete
+        await self.delete_file(path)
+      File "/data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1019, in delete_file
+        raise web.HTTPError(400, "Directory %s not empty" % os_path)
+    tornado.web.HTTPError: HTTP 400: Bad Request (Directory /data/mcj/Prune_fl/results/TinyImageNet/Hetero_FL——[Hetero_fair_cuda20000_TINY_IMAGENET]_[1, 0.5, 0.9]un_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False not empty)
+[W 2024-02-06 22:46:09.541 ServerApp] 400 DELETE /api/contents/results/TinyImageNet/Hetero_FL%E2%80%94%E2%80%94%5BHetero_fair_cuda20000_TINY_IMAGENET%5D_%5B1%2C%200.5%2C%200.9%5Dun_fair_1.0_30_stb_-1.0_sub_fed_avg_g_0.0_0.0_y_False?1707230770936 (9da5381b91844bcdb47a2e3ea47e0e46@10.38.69.88) 2.35ms referer=http://10.29.183.244:8896/lab/tree/results/FEMNIST/PIF_FEMNIST_%5B1.0%2C%200.3%2C%200.1%5D0.1__asyn__con_sub_fed_avg__n__50_____ft_esc/app.log
+[W 2024-02-08 00:32:44.680 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-02-08 17:57:47.351 LabApp] Could not determine jupyterlab build status without nodejs
+[E 2024-02-08 21:22:45.847 LabApp] Fail to get yarn configuration. /data/mcj/conda_env/d2l/lib/python3.8/site-packages/jupyterlab/staging/yarn.js:4
+    (()=>{var Qge=Object.create;var AS=Object.defineProperty;var bge=Object.getOwnPropertyDescriptor;var Sge=Object.getOwnPropertyNames;var vge=Object.getPrototypeOf,xge=Object.prototype.hasOwnProperty;var J=(r=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(r,{get:(e,t)=>(typeof require<"u"?require:e)[t]}):r)(function(r){if(typeof require<"u")return require.apply(this,arguments);throw new Error('Dynamic require of "'+r+'" is not supported')});var Pge=(r,e)=>()=>(r&&(e=r(r=0)),e);var w=(r,e)=>()=>(e||r((e={exports:{}}).exports,e),e.exports),ut=(r,e)=>{for(var t in e)AS(r,t,{get:e[t],enumerable:!0})},Dge=(r,e,t,i)=>{if(e&&typeof e=="object"||typeof e=="function")for(let n of Sge(e))!xge.call(r,n)&&n!==t&&AS(r,n,{get:()=>e[n],enumerable:!(i=bge(e,n))||i.enumerable});return r};var Pe=(r,e,t)=>(t=r!=null?Qge(vge(r)):{},Dge(e||!r||!r.__esModule?AS(t,"default",{value:r,enumerable:!0}):t,r));var QK=w((GXe,BK)=>{BK.exports=wK;wK.syn
+    
+    SyntaxError: Unexpected token {
+        at createScript (vm.js:56:10)
+        at Object.runInThisContext (vm.js:97:10)
+        at Module._compile (module.js:549:28)
+        at Object.Module._extensions..js (module.js:586:10)
+        at Module.load (module.js:494:32)
+        at tryModuleLoad (module.js:453:12)
+        at Function.Module._load (module.js:445:3)
+        at Module.runMain (module.js:611:10)
+        at run (bootstrap_node.js:387:7)
+        at startup (bootstrap_node.js:153:9)
+    
+[W 2024-02-10 20:24:54.150 ServerApp] delete /log_20231204215751408.log
+[W 2024-02-10 20:24:54.184 ServerApp] delete /log_20231204224723754.log
+[W 2024-02-10 20:24:54.192 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20231204224723754.log, on different device to home directory
+[W 2024-02-10 20:24:54.195 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20231204215751408.log, on different device to home directory
+[W 2024-02-10 20:24:54.205 ServerApp] delete /log_20231207103145406.log
+[W 2024-02-10 20:24:54.206 ServerApp] delete /log_20231207144205805.log
+[W 2024-02-10 20:24:54.209 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20231207103145406.log, on different device to home directory
+[W 2024-02-10 20:24:54.210 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20231207144205805.log, on different device to home directory
+[W 2024-02-10 20:24:54.219 ServerApp] delete /log_20231204215803501.log
+[W 2024-02-10 20:24:54.224 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20231204215803501.log, on different device to home directory
+[W 2024-02-10 20:24:54.238 ServerApp] delete /log_20231205080531495.log
+[W 2024-02-10 20:24:54.239 ServerApp] delete /log_20231207103858599.log
+[W 2024-02-10 20:24:54.267 ServerApp] delete /log_20231207144205808.log
+[W 2024-02-10 20:24:54.268 ServerApp] delete /log_20231204215803510.log
+[W 2024-02-10 20:24:54.305 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20231205080531495.log, on different device to home directory
+[W 2024-02-10 20:24:54.306 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20231207103858599.log, on different device to home directory
+[W 2024-02-10 20:24:54.307 ServerApp] delete /log_20231205094016887.log
+[W 2024-02-10 20:24:54.308 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20231207144205808.log, on different device to home directory
+[W 2024-02-10 20:24:54.308 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20231204215803510.log, on different device to home directory
+[W 2024-02-10 20:24:54.315 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20231205094016887.log, on different device to home directory
+[W 2024-02-10 20:24:54.366 ServerApp] delete /log_20231207110147406.log
+[W 2024-02-10 20:24:54.377 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20231207110147406.log, on different device to home directory
+[W 2024-02-10 20:24:54.390 ServerApp] /data/mcj/Prune_fl/log_20231207103858599.log doesn't exist
+[W 2024-02-10 20:24:54.391 ServerApp] /data/mcj/Prune_fl/log_20231204215803510.log doesn't exist
+[W 2024-02-10 20:24:54.404 ServerApp] /data/mcj/Prune_fl/log_20231205094016887.log doesn't exist
+[W 2024-02-10 20:24:54.420 ServerApp] /data/mcj/Prune_fl/log_20231207110147406.log doesn't exist
+[W 2024-02-10 20:24:54.431 ServerApp] /data/mcj/Prune_fl/log_20231207144205808.log doesn't exist
+[W 2024-02-10 20:24:54.458 ServerApp] /data/mcj/Prune_fl/log_20231205080531495.log doesn't exist
+[W 2024-02-10 20:27:40.481 ServerApp] delete /log_20240209085842316.log
+[W 2024-02-10 20:27:40.483 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240209085842316.log, on different device to home directory
+[W 2024-02-10 20:27:40.485 ServerApp] delete /log_20240209004054489.log
+[W 2024-02-10 20:27:40.488 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240209004054489.log, on different device to home directory
+[W 2024-02-10 20:27:40.490 ServerApp] delete /log_20240209085842306.log
+[W 2024-02-10 20:27:40.501 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240209085842306.log, on different device to home directory
+[W 2024-02-10 20:27:40.504 ServerApp] delete /log_20240209085744835.log
+[W 2024-02-10 20:27:40.507 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240209085744835.log, on different device to home directory
+[W 2024-02-10 20:27:40.510 ServerApp] delete /log_20240209085842315.log
+[W 2024-02-10 20:27:40.511 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240209085842315.log, on different device to home directory
+[W 2024-02-10 20:27:40.515 ServerApp] delete /log_20240208003931768.log
+[W 2024-02-10 20:27:40.518 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003931768.log, on different device to home directory
+[W 2024-02-10 20:27:40.525 ServerApp] delete /log_20240208004824680.log
+[W 2024-02-10 20:27:40.527 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208004824680.log, on different device to home directory
+[W 2024-02-10 20:27:40.530 ServerApp] delete /log_20240209085842309.log
+[W 2024-02-10 20:27:40.532 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240209085842309.log, on different device to home directory
+[W 2024-02-10 20:27:40.535 ServerApp] delete /log_20240208003804126.log
+[W 2024-02-10 20:27:40.538 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003804126.log, on different device to home directory
+[W 2024-02-10 20:27:40.541 ServerApp] delete /log_20240208004833679.log
+[W 2024-02-10 20:27:40.545 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208004833679.log, on different device to home directory
+[W 2024-02-10 20:27:40.554 ServerApp] delete /log_20240208003804130.log
+[W 2024-02-10 20:27:40.555 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003804130.log, on different device to home directory
+[W 2024-02-10 20:27:40.561 ServerApp] delete /log_20240209004054492.log
+[W 2024-02-10 20:27:40.563 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240209004054492.log, on different device to home directory
+[W 2024-02-10 20:27:40.566 ServerApp] delete /log_20240208003804136.log
+[W 2024-02-10 20:27:40.577 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003804136.log, on different device to home directory
+[W 2024-02-10 20:27:40.606 ServerApp] delete /log_20240209085842312.log
+[W 2024-02-10 20:27:40.608 ServerApp] delete /log_20240208003804139.log
+[W 2024-02-10 20:27:40.608 ServerApp] delete /log_20240207093352823.log
+[W 2024-02-10 20:27:40.633 ServerApp] delete /log_20240207093353765.log
+[W 2024-02-10 20:27:40.634 ServerApp] delete /log_20240208003931770.log
+[W 2024-02-10 20:27:40.634 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240209085842312.log, on different device to home directory
+[W 2024-02-10 20:27:40.635 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003804139.log, on different device to home directory
+[W 2024-02-10 20:27:40.650 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093352823.log, on different device to home directory
+[W 2024-02-10 20:27:40.651 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003931770.log, on different device to home directory
+[W 2024-02-10 20:27:40.651 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093353765.log, on different device to home directory
+[W 2024-02-10 20:27:40.675 ServerApp] delete /log_20240207093103298.log
+[W 2024-02-10 20:27:40.676 ServerApp] delete /log_20240207093103296.log
+[W 2024-02-10 20:27:40.683 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093103298.log, on different device to home directory
+[W 2024-02-10 20:27:40.685 ServerApp] delete /log_20240207092019936.log
+[W 2024-02-10 20:27:40.685 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093103296.log, on different device to home directory
+[W 2024-02-10 20:27:40.691 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207092019936.log, on different device to home directory
+[W 2024-02-10 20:27:40.706 ServerApp] delete /log_20240208004833683.log
+[W 2024-02-10 20:27:40.710 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208004833683.log, on different device to home directory
+[W 2024-02-10 20:27:40.712 ServerApp] delete /log_20240209004130758.log
+[W 2024-02-10 20:27:40.719 ServerApp] delete /log_20240208004824681.log
+[W 2024-02-10 20:27:40.720 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240209004130758.log, on different device to home directory
+[W 2024-02-10 20:27:40.726 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208004824681.log, on different device to home directory
+[W 2024-02-10 20:27:40.739 ServerApp] delete /log_20240208003804124.log
+[W 2024-02-10 20:27:40.741 ServerApp] /data/mcj/Prune_fl/log_20240209004130758.log doesn't exist
+[W 2024-02-10 20:27:40.743 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003804124.log, on different device to home directory
+[W 2024-02-10 20:27:40.747 ServerApp] delete /log_20240208004824677.log
+[W 2024-02-10 20:27:40.747 ServerApp] /data/mcj/Prune_fl/log_20240208003804124.log doesn't exist
+[W 2024-02-10 20:27:40.749 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208004824677.log, on different device to home directory
+[W 2024-02-10 20:27:40.755 ServerApp] delete /log_20240208004446591.log
+[W 2024-02-10 20:27:40.758 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208004446591.log, on different device to home directory
+[W 2024-02-10 20:27:40.778 ServerApp] delete /log_20240208003931777.log
+[W 2024-02-10 20:27:40.779 ServerApp] delete /log_20240208003804137.log
+[W 2024-02-10 20:27:40.783 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003931777.log, on different device to home directory
+[W 2024-02-10 20:27:40.783 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003804137.log, on different device to home directory
+[W 2024-02-10 20:27:40.784 ServerApp] /data/mcj/Prune_fl/log_20240208004833683.log doesn't exist
+[W 2024-02-10 20:27:40.789 ServerApp] /data/mcj/Prune_fl/log_20240208003931777.log doesn't exist
+[W 2024-02-10 20:27:40.795 ServerApp] delete /log_20240207093352820.log
+[W 2024-02-10 20:27:40.798 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093352820.log, on different device to home directory
+[W 2024-02-10 20:27:40.803 ServerApp] /data/mcj/Prune_fl/log_20240208004824677.log doesn't exist
+[W 2024-02-10 20:27:40.811 ServerApp] delete /log_20240208004833680.log
+[W 2024-02-10 20:27:40.812 ServerApp] delete /log_20240207093353773.log
+[W 2024-02-10 20:27:40.815 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208004833680.log, on different device to home directory
+[W 2024-02-10 20:27:40.815 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093353773.log, on different device to home directory
+[W 2024-02-10 20:27:40.827 ServerApp] delete /log_20240207093103277.log
+[W 2024-02-10 20:27:40.832 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093103277.log, on different device to home directory
+[W 2024-02-10 20:27:40.837 ServerApp] /data/mcj/Prune_fl/log_20240208004824681.log doesn't exist
+[W 2024-02-10 20:27:40.838 ServerApp] /data/mcj/Prune_fl/log_20240207093103277.log doesn't exist
+[W 2024-02-10 20:27:40.843 ServerApp] delete /log_20240207092019937.log
+[W 2024-02-10 20:27:40.845 ServerApp] delete /log_20240207092019932.log
+[W 2024-02-10 20:27:40.848 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207092019937.log, on different device to home directory
+[W 2024-02-10 20:27:40.848 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207092019932.log, on different device to home directory
+[W 2024-02-10 20:27:40.856 ServerApp] delete /log_20240208003931775.log
+[W 2024-02-10 20:27:40.857 ServerApp] delete /log_20240208003804129.log
+[W 2024-02-10 20:27:40.859 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003931775.log, on different device to home directory
+[W 2024-02-10 20:27:40.860 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003804129.log, on different device to home directory
+[W 2024-02-10 20:27:40.876 ServerApp] delete /log_20240208003804138.log
+[W 2024-02-10 20:27:40.878 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003804138.log, on different device to home directory
+[W 2024-02-10 20:27:40.887 ServerApp] delete /log_20240208004824676.log
+[W 2024-02-10 20:27:40.889 ServerApp] delete /log_20240208004446593.log
+[W 2024-02-10 20:27:40.891 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208004824676.log, on different device to home directory
+[W 2024-02-10 20:27:40.892 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208004446593.log, on different device to home directory
+[W 2024-02-10 20:27:40.896 ServerApp] delete /log_20240208003931773.log
+[W 2024-02-10 20:27:40.898 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003931773.log, on different device to home directory
+[W 2024-02-10 20:27:40.906 ServerApp] delete /log_20240207093352826.log
+[W 2024-02-10 20:27:40.908 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093352826.log, on different device to home directory
+[W 2024-02-10 20:27:40.911 ServerApp] delete /no_increase_1_unfair_sub_fed_avg_-1.log
+[W 2024-02-10 20:27:40.914 ServerApp] Skipping trash for /data/mcj/Prune_fl/no_increase_1_unfair_sub_fed_avg_-1.log, on different device to home directory
+[W 2024-02-10 20:27:40.918 ServerApp] delete /log_20240207093353769.log
+[W 2024-02-10 20:27:40.922 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093353769.log, on different device to home directory
+[W 2024-02-10 20:27:40.926 ServerApp] delete /log_20240207093103295.log
+[W 2024-02-10 20:27:40.928 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093103295.log, on different device to home directory
+[W 2024-02-10 20:27:40.934 ServerApp] delete /log_20240207092019934.log
+[W 2024-02-10 20:27:40.936 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207092019934.log, on different device to home directory
+[W 2024-02-10 20:27:40.946 ServerApp] delete /log_20240208003931771.log
+[W 2024-02-10 20:27:40.948 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003931771.log, on different device to home directory
+[W 2024-02-10 20:27:40.965 ServerApp] delete /log_20240208003804133.log
+[W 2024-02-10 20:27:40.967 ServerApp] delete /log_20240207093352828.log
+[W 2024-02-10 20:27:40.972 ServerApp] delete /log_20240207093353771.log
+[W 2024-02-10 20:27:40.974 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240208003804133.log, on different device to home directory
+[W 2024-02-10 20:27:40.976 ServerApp] delete /log_20240207093103292.log
+[W 2024-02-10 20:27:40.978 ServerApp] delete /log_20240207093103290.log
+[W 2024-02-10 20:27:40.984 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093352828.log, on different device to home directory
+[W 2024-02-10 20:27:40.988 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093103290.log, on different device to home directory
+[W 2024-02-10 20:27:40.988 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093353771.log, on different device to home directory
+[W 2024-02-10 20:27:40.991 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207093103292.log, on different device to home directory
+[W 2024-02-10 20:27:41.000 ServerApp] /data/mcj/Prune_fl/log_20240208003804133.log doesn't exist
+[W 2024-02-10 20:27:41.010 ServerApp] delete /log_20240207092019933.log
+[W 2024-02-10 20:27:41.010 ServerApp] /data/mcj/Prune_fl/log_20240207093103292.log doesn't exist
+[W 2024-02-10 20:27:41.012 ServerApp] Skipping trash for /data/mcj/Prune_fl/log_20240207092019933.log, on different device to home directory
+[W 2024-02-10 20:27:41.013 ServerApp] /data/mcj/Prune_fl/log_20240207093103290.log doesn't exist
+[W 2024-02-10 20:27:41.035 ServerApp] /data/mcj/Prune_fl/log_20240207093353771.log doesn't exist
+[W 2024-02-10 20:27:41.044 ServerApp] /data/mcj/Prune_fl/log_20240207092019933.log doesn't exist
+[W 2024-02-10 20:27:47.241 ServerApp] Notebook Feminst.ipynb is not trusted
+[I 2024-02-10 20:27:48.200 ServerApp] Kernel started: c6020727-dbaf-4d51-9846-58b5943718fd
+[I 2024-02-10 20:27:49.876 ServerApp] Connecting to kernel c6020727-dbaf-4d51-9846-58b5943718fd.
+[I 2024-02-10 20:27:49.941 ServerApp] Starting buffering for c6020727-dbaf-4d51-9846-58b5943718fd:f6548478-1ea5-4a01-ab65-14ffe7b39cd5
+[I 2024-02-10 20:27:49.985 ServerApp] Connecting to kernel c6020727-dbaf-4d51-9846-58b5943718fd.
+[I 2024-02-10 20:27:50.121 ServerApp] Connecting to kernel c6020727-dbaf-4d51-9846-58b5943718fd.
+[I 2024-02-10 20:28:30.522 ServerApp] Creating new notebook in 
+[I 2024-02-10 20:28:31.540 ServerApp] Kernel started: 110ba241-3d67-4341-a425-08ce37c8f362
+[I 2024-02-10 20:28:32.298 ServerApp] Connecting to kernel 110ba241-3d67-4341-a425-08ce37c8f362.
+[I 2024-02-10 20:28:39.606 ServerApp] Starting buffering for 110ba241-3d67-4341-a425-08ce37c8f362:fdb814ea-dbb9-4a1a-b9c2-29f439d7cf19
+[I 2024-02-10 20:29:48.204 ServerApp] Saving file at /Feminst.ipynb
+[W 2024-02-10 20:29:48.204 ServerApp] Notebook Feminst.ipynb is not trusted
+[W 2024-02-10 21:13:04.020 ServerApp] Notebook CELEBA.ipynb is not trusted
+[I 2024-02-10 21:13:05.011 ServerApp] Kernel started: 75ba997e-9bd0-48ee-a5cc-a1497b831237
+[I 2024-02-10 21:13:05.869 ServerApp] Connecting to kernel 75ba997e-9bd0-48ee-a5cc-a1497b831237.
+[W 2024-02-10 21:13:35.423 ServerApp] Notebook Cifar10.ipynb is not trusted
+[I 2024-02-10 21:13:35.966 ServerApp] Kernel started: cad9d3e6-546c-4076-afa4-5b5268c30f20
+[I 2024-02-10 21:13:36.793 ServerApp] Connecting to kernel cad9d3e6-546c-4076-afa4-5b5268c30f20.
+[I 2024-02-10 21:15:04.693 ServerApp] Saving file at /CELEBA.ipynb
+[W 2024-02-10 21:15:04.694 ServerApp] Notebook CELEBA.ipynb is not trusted
+[I 2024-02-10 21:15:35.793 ServerApp] Saving file at /Cifar10.ipynb
+[W 2024-02-10 21:15:35.794 ServerApp] Notebook Cifar10.ipynb is not trusted
+[I 2024-02-12 20:29:04.013 ServerApp] Starting buffering for c6020727-dbaf-4d51-9846-58b5943718fd:90af8f4a-9504-46f8-a576-4005b313dbab
+[I 2024-02-12 20:29:04.023 ServerApp] Starting buffering for cad9d3e6-546c-4076-afa4-5b5268c30f20:ef35508b-c622-42bf-96cf-cd8e0ba78e52
+[I 2024-02-12 20:29:04.024 ServerApp] Starting buffering for 75ba997e-9bd0-48ee-a5cc-a1497b831237:5a3cfac3-dfa3-47a0-844a-b131016cd08d
