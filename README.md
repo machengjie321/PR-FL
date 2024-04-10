@@ -7,6 +7,23 @@ This framework integrates asynchronous learning algorithms and pruning technique
 
 The model pruning framework is based on Prune_Fl, https://github.com/jiangyuang/PruneFL.
 
+# Slides of my work
+
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/background1.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/background2.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/my_work1.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/my_work2.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/my_work3.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/my_work4.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/mw5.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/mw6.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/mw7.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/mw8.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/mw9.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/mw10.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/mw11.PNG)
+![image](https://github.com/machengjie321/PR-FL/blob/main/img/mw12.PNG)
+
 # Setup
 ## Initial the Pruning Library file from Prune_FL
 
@@ -41,3 +58,5 @@ nohup python experiments/FEMNIST/Prune_increase_FL_CMD.py -ic 0.2 -i 50 -f n -d 
 # Analysis
 
 You can see some of my visualizations in the dataset.jupyter
+
+
